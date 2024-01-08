@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d4d1d1;
+  font-family: Segoe UI;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  height: 600px;
+  width: 700px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 60px;
+  border-radius: 10px;
+}
+
+.todo_title {
+  font-size: 23px;
+  margin-top: 30px;
+  margin-left: 40%;
+}
+
+.todo_forms {
+  margin: 30px;
+}
+
+.todo_task_input {
+  padding: 10px;
+  width: 60%;
+  border-radius: 40px;
+  border: 1px solid rgb(165, 163, 163);
+  outline: none;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: Segoe UI;
+  position: relative;
+  margin-left: 7%;
+}
+
+.todo_task_input:hover {
+  border: 1px solid rgb(0, 200, 255);
+  outline: 1px solid rgb(0, 200, 255);
+}
+
+.todo_add_btn {
+  height: 40px;
+  width: 20%;
+  margin-left: 10px;
+  position: relative;
+  top: -4%;
+  color: white;
+  background-color: rgb(8, 184, 114);
+  border: none;
+  border-radius: 25px;
+  font-family: Segoe UI;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.todo_add_btn:hover {
+  background-color: rgb(7, 153, 95);
+}
+
+.todo_list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.todo_single {
+  border-radius: 10px;
+  margin: 10px 0px;
+  background-color: aliceblue;
+  padding: 10px 20px;
+  display: flex;
+  width: 450px;
+  margin-left: 16%;
+  align-items: center;
+}
+
+.todo_task_bar {
+  flex: 1;
+  font-family: Segoe UI;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.todo_delete {
+  background-color: #fb3030;
+  border: none;
+  padding: 8px 8px;
+  color: white;
+  font-family: Segoe UI;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.todo_edit {
+  background-color: rgb(8, 184, 114);
+  border: none;
+  padding: 8px 8px;
+  color: white;
+  font-family: Segoe UI;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 9px;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.todo_delete:hover {
+  background-color: #f41414;
+}
